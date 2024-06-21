@@ -3,8 +3,6 @@ from tkinter import ttk
 from PIL import Image
 
 import qrcode
-from qrcode.image.pure import PyPNGImage
-
 import customtkinter as ctk
 
 ctk.set_default_color_theme('dark-blue')
@@ -12,13 +10,13 @@ ctk.set_default_color_theme('dark-blue')
 
 class QrCodeGenerator(ctk.CTk):
     def __init__(self):
-        super().__init__()
+        super().__init__(fg_color='white')
         self.geometry('400x430')
         self.title('')
         self.iconbitmap('assets/empty.ico')
         self.minsize(width=120, height=0)
 
-        self.top_frame = TopFrame(self, width=400, height=400, fg_color='green')
+        self.top_frame = TopFrame(self, width=400, height=400, fg_color='white')
         # self.top_frame.pack(expand=True, fill='both')
         self.top_frame.place(relx=0.5, rely=0.4, anchor='center', relwidth=0.6, relheight=0.6)
 
@@ -35,7 +33,7 @@ class TopFrame(ctk.CTkFrame):
         super().__init__(master=parent, **kwargs)
 
         self.qr_img = ctk.CTkImage(Image.open('assets/Placeholder.png'), size=(300, 300))
-        self.image_label = ctk.CTkLabel(self, image=self.qr_img, fg_color='red', text='')
+        self.image_label = ctk.CTkLabel(self, image=self.qr_img, text='')
         self.image_label.pack(expand=True, fill='both')
 
 
