@@ -1,0 +1,12 @@
+<RCC>
+  <qresource>
+    <file>assets/Figtree-Black.ttf</file>
+    <file>assets/Figtree-Bold.ttf</file>
+    <file>assets/Figtree-ExtraBold.ttf</file>
+    <file>assets/Figtree-Light.ttf</file>
+    <file>assets/Figtree-Medium.ttf</file>
+    <file>assets/Figtree-Regular.ttf</file>
+    <file>assets/empty.ico</file>
+    <file>assets/qr.jpg</file>
+  </qresource>
+</RCC>

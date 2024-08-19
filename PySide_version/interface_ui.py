@@ -16,8 +16,8 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWidgets import (QApplication, QFrame, QHBoxLayout, QLabel,
-    QLineEdit, QPushButton, QSizePolicy, QSpacerItem,
-    QVBoxLayout, QWidget)
+    QLineEdit, QPushButton, QSizePolicy, QVBoxLayout,
+    QWidget)
 import resource_rc
 
 class Ui_Form(object):
@@ -49,6 +49,7 @@ class Ui_Form(object):
 "	border-radius: 30px;\n"
 "        border-bottom-left-radius: 0px; /* Square bottom left corner */\n"
 "        border-bottom-right-radius: 0px; /* Square bottom right corner */\n"
+"padding: 20px\n"
 "}\n"
 "\n"
 "QFrame#frm_top {\n"
@@ -61,6 +62,14 @@ class Ui_Form(object):
 "	border: 2px solid transparent;\n"
 "	border-radius: 8px;\n"
 "padding: 5px\n"
+"}\n"
+"\n"
+"QPushButton:hover{\n"
+"		background-color: #3241ff;\n"
+"}\n"
+"\n"
+"QPushButton:pressed{\n"
+"		background-color: #2e54e8;\n"
 "}\n"
 "\n"
 "QWidget#Form {\n"
@@ -103,31 +112,31 @@ class Ui_Form(object):
         self.frm_bottom.setLineWidth(0)
         self.horizontalLayout = QHBoxLayout(self.frm_bottom)
         self.horizontalLayout.setObjectName(u"horizontalLayout")
-        self.horizontalSpacer = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
-
-        self.horizontalLayout.addItem(self.horizontalSpacer)
-
         self.le_text = QLineEdit(self.frm_bottom)
         self.le_text.setObjectName(u"le_text")
-        self.le_text.setMinimumSize(QSize(0, 30))
-        self.le_text.setMaximumSize(QSize(200, 16777215))
-        font = QFont()
-        font.setStyleStrategy(QFont.PreferAntialias)
-        self.le_text.setFont(font)
+        sizePolicy1 = QSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Fixed)
+        sizePolicy1.setHorizontalStretch(0)
+        sizePolicy1.setVerticalStretch(0)
+        sizePolicy1.setHeightForWidth(self.le_text.sizePolicy().hasHeightForWidth())
+        self.le_text.setSizePolicy(sizePolicy1)
+        self.le_text.setMinimumSize(QSize(300, 40))
+        self.le_text.setMaximumSize(QSize(16777215, 16777215))
 
         self.horizontalLayout.addWidget(self.le_text)
 
+        self.btn_generate = QPushButton(self.frm_bottom)
+        self.btn_generate.setObjectName(u"btn_generate")
+        self.btn_generate.setMinimumSize(QSize(90, 40))
+        self.btn_generate.setMaximumSize(QSize(80, 40))
+
+        self.horizontalLayout.addWidget(self.btn_generate)
+
         self.btn_save = QPushButton(self.frm_bottom)
         self.btn_save.setObjectName(u"btn_save")
-        self.btn_save.setMinimumSize(QSize(80, 0))
-        self.btn_save.setMaximumSize(QSize(80, 30))
-        self.btn_save.setFont(font)
+        self.btn_save.setMinimumSize(QSize(90, 40))
+        self.btn_save.setMaximumSize(QSize(80, 40))
 
         self.horizontalLayout.addWidget(self.btn_save)
-
-        self.horizontalSpacer_2 = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
-
-        self.horizontalLayout.addItem(self.horizontalSpacer_2)
 
 
         self.verticalLayout.addWidget(self.frm_bottom)
@@ -143,6 +152,7 @@ class Ui_Form(object):
     def retranslateUi(self, Form):
         Form.setWindowTitle(QCoreApplication.translate("Form", u"Form", None))
         self.lbl_img.setText("")
+        self.btn_generate.setText(QCoreApplication.translate("Form", u"Generate", None))
         self.btn_save.setText(QCoreApplication.translate("Form", u"Save", None))
     # retranslateUi
 

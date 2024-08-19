@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6be1bc13-5b55-4e5e-a5ca-dfdded070b06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PySide_version/controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PySide_version/interface.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PySide_version/interface_ui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PySide_version/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PySide_version/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PySide_version/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PySide_version/resource.qrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PySide_version/resource_rc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PySide_version/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/PySide_version/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PySide_version/interface.ui" beforeDir="false" afterPath="$PROJECT_DIR$/PySide_version/interface.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PySide_version/interface_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/PySide_version/interface_ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PySide_version/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/PySide_version/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PySide_version/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/PySide_version/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PySide_version/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/PySide_version/view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723974231344</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="qt made">
+      <option name="closed" value="true" />
+      <created>1724028561825</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724028561825</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -333,6 +342,7 @@
     <MESSAGE value="v 1.3" />
     <MESSAGE value="v 1.4" />
     <MESSAGE value="v 1.4.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="v 1.4.0" />
+    <MESSAGE value="qt made" />
+    <option name="LAST_COMMIT_MESSAGE" value="qt made" />
   </component>
 </project>
