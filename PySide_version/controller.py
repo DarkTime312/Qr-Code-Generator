@@ -1,4 +1,4 @@
-from PySide6.QtGui import QPixmap, QFontDatabase, QFont
+from PySide6.QtGui import QPixmap
 from PySide6.QtWidgets import QFileDialog, QMessageBox
 
 from model import QrcodeModel
