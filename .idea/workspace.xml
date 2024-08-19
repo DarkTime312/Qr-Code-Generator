@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6be1bc13-5b55-4e5e-a5ca-dfdded070b06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PySide_version/resource.qrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PySide_version/resource_rc.py" afterDir="false" />
+    <list default="true" id="6be1bc13-5b55-4e5e-a5ca-dfdded070b06" name="Changes" comment="resources added">
+      <change afterPath="$PROJECT_DIR$/PySide_version/assets/qr.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PySide_version/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/PySide_version/controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PySide_version/interface.ui" beforeDir="false" afterPath="$PROJECT_DIR$/PySide_version/interface.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PySide_version/interface_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/PySide_version/interface_ui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PySide_version/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/PySide_version/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PySide_version/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/PySide_version/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PySide_version/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/PySide_version/view.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "F:/Last Windwos(2024)/0 - All the files/Documents/Mnitors/My_script/Qr Code Generator",
+    "last_opened_file_path": "F:/Last Windwos(2024)/0 - All the files/Documents/Mnitors/My_script/Qr Code Generator/PySide_version/assets",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -307,7 +300,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724028561825</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Qt version finished">
+      <option name="closed" value="true" />
+      <created>1724039788069</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1724039788069</updated>
+    </task>
+    <task id="LOCAL-00012" summary="resources added">
+      <option name="closed" value="true" />
+      <created>1724039881769</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1724039881769</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -343,6 +352,8 @@
     <MESSAGE value="v 1.4" />
     <MESSAGE value="v 1.4.0" />
     <MESSAGE value="qt made" />
-    <option name="LAST_COMMIT_MESSAGE" value="qt made" />
+    <MESSAGE value="Qt version finished" />
+    <MESSAGE value="resources added" />
+    <option name="LAST_COMMIT_MESSAGE" value="resources added" />
   </component>
 </project>
