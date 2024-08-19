@@ -58,7 +58,6 @@ class BottomFrame(ctk.CTkFrame):
         # A frame to contain the buttons
         self.buttons_frame = ctk.CTkFrame(self, fg_color='#021fb3')
         self.buttons_frame.place(relx=0.5, rely=0.4, anchor='center')
-
         # Entry box
         self.ent_var = tk.StringVar()
         # A function will run each time user types something.
